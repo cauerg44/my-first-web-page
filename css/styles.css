@@ -4,6 +4,8 @@
 
 :root {
     --color-white: #FFF;
+    --color-purple: rgb(83, 10, 151);
+    --color-yellow: yellow;
     --bg-color-burger-section: #E0FFFF;
     --bg-gray: #e5e5e5;
     --text-green: #4bff5d;
@@ -21,7 +23,7 @@ body {
 }
 
 header {
-    background-color: rgb(83, 10, 151);
+    background-color: var(--color-purple);
     height: 80px;
     display: flex;
     align-items: center;
@@ -79,4 +81,24 @@ nav h1 {
 .burger-description h4 {
     font-size: 24px;
     color: var(--text-green);
+}
+
+#comments {
+    padding: 15px 0;
+    background-color: rgb(162, 96, 203);
+}
+
+#comments h2 {
+    color: rgb(34, 255, 0);
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.card-comment {
+    padding: 20px 15px;
+    background-color: var(--color-purple);
+    color: var(--color-yellow);
+    border-radius: 12px;
+    margin: 20px 0;
 }
