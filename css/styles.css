@@ -2,6 +2,10 @@
 
 /* ELEMENTS */
 
+:root {
+    --color-white: #FFF;
+}
+
 * {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
@@ -23,7 +27,7 @@ header {
 
 nav h1 {
     text-align: center;
-    color: rgb(93, 232, 232);
+    color: var(--color-white);
     font-size: 24px;
 }
 
