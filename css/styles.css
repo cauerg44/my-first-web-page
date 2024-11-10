@@ -4,6 +4,9 @@
 
 :root {
     --color-white: #FFF;
+    --bg-color-burger-section: #E0FFFF;
+    --bg-gray: #e5e5e5;
+    --text-green: #4bff5d;
 }
 
 * {
@@ -37,4 +40,43 @@ nav h1 {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
+}
+
+#burgers {
+    padding: 20px 15px;
+    background-color: var(--bg-gray);
+}
+
+.burger-card {
+    display: flex;
+    margin: 20px 0;
+}
+
+.burger-card img {
+    width: 200px;
+    border-radius: 12px 0 0 12px;
+}
+
+.burger-description {
+    background-color: rgb(82, 82, 82);
+    border-radius: 0 12px 12px 0;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.burger-description h3 {
+    color: var(--color-white);
+    font-size: 24px;
+}
+
+.burger-description p {
+    color: var(--color-white);
+    font-size: 14px;
+}
+
+.burger-description h4 {
+    font-size: 24px;
+    color: var(--text-green);
 }
