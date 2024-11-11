@@ -22,6 +22,12 @@ body {
     padding: 0;
 }
 
+a,
+a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
 header {
     background-color: var(--color-purple);
     height: 80px;
@@ -34,6 +40,15 @@ nav h1 {
     text-align: center;
     color: var(--color-white);
     font-size: 24px;
+}
+
+footer {
+    padding: 0 15px;
+    height: 120px;
+    background-color: var(--color-purple);
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
 }
 
 /* CLASSES, ID'S */
@@ -101,4 +116,17 @@ nav h1 {
     color: var(--color-yellow);
     border-radius: 12px;
     margin: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content a {
+    font-size: 16px;
+}
+
+.footer-content address {
+    font-size: 16px;
 }
